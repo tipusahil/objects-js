@@ -23,3 +23,4 @@ console.log(values);
 // (keys) er syntex: 
 const keys = Object.keys(computer);
 console.log(keys);
+
