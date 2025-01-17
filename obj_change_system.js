@@ -13,7 +13,7 @@ console.log(person);//output: person object er sob property er value output e de
 console.log(person.agee);//output : (person) obj er (agee) property er value (22) dekabe.
 
 const boyos = person.agee;// obj er key er value evabe ekta variable er modde raka jai. & caile seta print korew deka jai.jmn: 
-console.log(boyos);// output: 22
+console.log(boyos);// output: 22 
 
 
 
