@@ -16,6 +16,13 @@ const collage = {
 
 console.log(collage);
 
+// obj e notun kore property/key & value add korte caile :
+// obj_name.new_property_name = "new value";evabe likte hobe jmn: 
+collage.seat = '4000';
+collage['seat'] = '4000';//bracket diye evabe add kora hobe.
+
+collage.price = '200tk';//etai holo data add korar system. & eta collage name obj e add add hoye jabe.
+
 collage.department[2] = 'mechoni';// obj er modde array thakle tar vitorer value evabe index numbe diye difine kore change korte hoi,ar joid sob gulo change korte hoi thle index number dewar drkr nai.
 console.log(collage.department);
 
@@ -26,6 +33,8 @@ collage.teachers.CIVIL = '100jon';// obj er kuno property er value evabe dot(.) 
 
 console.log(collage.teachers); //output e CIVIL key/property er value change dekabe.
 
+// jodi obj theke kuno property/key delete korte cai tkn delete keyword ta use kore delete korte hbe,jmn:
+delete collage.price;//  collage obj er price property jeta notun kore add korcilm ota delete kore dilm
 
 // 3rd bracket []notation diye: 
 collage['teachers']['CST'] = '300jon'; /* obj er kuno property er value evabe 3rd bracket[] notation diye change kora jai. */
