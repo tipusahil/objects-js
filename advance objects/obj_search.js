@@ -12,11 +12,17 @@ const products =[
 //     console.log(product);
 // }
 
-function matchProducts(products_object,search){
-    for(const product of products_object){
+function matchProducts(products,search){
 
-        return search;
+    const matchedProducts = [];
+    for(const product of products){
+
+       if(product.type.toLowerCase().includes(search.toLowerCase())) {
+        matchedProducts.push(product);
+       }
     }
+
+    return matchProducts;
 }
 
 const result = matchProducts(products,'phone');
