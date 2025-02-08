@@ -6,3 +6,8 @@ const products =[
  {name:'realme',        brand:'xiomi',      price:10000,type:'phone'},
 ];
 
+for(cosnt product of products){
+    console.log(product);
+}
+
+//node advance objects\obj_search.js
