@@ -6,8 +6,19 @@ const products =[
  {name:'realme',        brand:'xiomi',      price:10000,type:'phone'},
 ];
 
-for(cosnt product of products){
-    console.log(product);
+
+// (for of) loop  in obj
+// for(const product of products){
+//     console.log(product);
+// }
+
+function matchProducts(products_object,search){
+    for(const product of products_object){
+
+        return search;
+    }
 }
 
-//node advance objects\obj_search.js
+const result = matchProducts(products,'phone');
+console.log(result);
+//node obj_search.js
